@@ -19,4 +19,8 @@ Route::get('/', static function () {
 
 Route::get('card', static function () {
     return view('alpineJs.cards');
-});
+})->name('card');
+
+Route::get('stats', static function () {
+    return view('alpineJs.dynamicValue');
+})->name('stats');

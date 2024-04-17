@@ -27,7 +27,11 @@
                                 <a class="flex flex-col items-center justify-center rounded-lg px-5 py-5 hover:bg-gray-50 lg:basis-[248px] xl:px-8 w-[248px]" href="card">
                                     <!-- TEXT -->
                                     <h2 class="font-inter mb-1 mt-5 text-lg font-medium text-[#160042]">Cards</h2>
-                                    <p class="font-inter max-w-[250px] text-sm text-gray-500 lg:max-w-[400px]">Animation sur des card</p>
+                                </a>
+                                <!-- ITEM -->
+                                <a class="flex flex-col items-center justify-center rounded-lg px-5 py-5 hover:bg-gray-50 lg:basis-[248px] xl:px-8 w-[248px]" href="stats">
+                                    <!-- TEXT -->
+                                    <h2 class="font-inter mb-1 mt-5 text-lg font-medium text-[#160042]">Stat</h2>
                                 </a>
 
                             </div>
