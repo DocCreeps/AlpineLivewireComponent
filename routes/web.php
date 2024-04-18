@@ -16,7 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', static function () {
     return view('accueil');
 });
+Route::get('alpine', static function () {
+    return view('alpineJs');
+})->name('alpine');
 
+Route::get('livewire', static function () {
+    return view('livewire');
+})->name('livewire');
+
+
+// AlpineJs
 Route::get('card', static function () {
     return view('alpineJs.cards');
 })->name('card');
@@ -24,3 +33,6 @@ Route::get('card', static function () {
 Route::get('stats', static function () {
     return view('alpineJs.dynamicValue');
 })->name('stats');
+
+
+// Livewire

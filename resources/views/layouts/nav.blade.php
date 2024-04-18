@@ -14,28 +14,9 @@
                 <div class="mt-14 flex flex-col space-y-8 lg:mt-0 lg:flex lg:flex-row lg:space-x-1 lg:space-y-0" x-bind:class="isOpen ? 'show' : 'hidden'">
                     <!-- DROPDOWN -->
                     <div class="relative flex flex-col justify-center items-center">
-                        <a x-on:click.prevent="menuOne = !menuOne" href="#" class="flex flex-row rounded-lg lg:px-6 lg:py-4 lg:hover:bg-gray-50 lg:hover:text-gray-800" x-bind:class="menuOne ? 'text-gray-800 lg:border lg:border-gray-600 lg:bg-gray-50' : 'text-black lg:border lg:border-white' ">
+                        <a href="#" class="flex flex-row rounded-lg lg:px-6 lg:py-4 lg:hover:bg-gray-50 lg:hover:text-gray-800" >
                             Alpine JS
-                            <svg x-bind:class="menuOne ? 'rotate-180' : 'rotate-0' " class="fill-current transition" style="width: 24px; height: 24px" viewBox="0 0 24 24">
-                                <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"></path>
-                            </svg>
                         </a>
-                        <!-- DROP DOWN MENU ONE -->
-                        <div class="lg:px-75 z-50 flex w-full flex-col rounded-lg bg-white px-5 py-5 lg:absolute lg:top-20 lg:w-[800px] lg:flex-row lg:flex-wrap lg:py-7 lg:shadow-[0_16px_64px_-15px_rgba(45,96,173,0.15)] xl:w-[950px]" x-show="menuOne" x-on:click.outside="menuOne = false">
-                            <div class="flex flex-wrap items-center justify-center w-full">
-                                <!-- ITEM -->
-                                <a class="flex flex-col items-center justify-center rounded-lg px-5 py-5 hover:bg-gray-50 lg:basis-[248px] xl:px-8 w-[248px]" href="card">
-                                    <!-- TEXT -->
-                                    <h2 class="font-inter mb-1 mt-5 text-lg font-medium text-[#160042]">Cards</h2>
-                                </a>
-                                <!-- ITEM -->
-                                <a class="flex flex-col items-center justify-center rounded-lg px-5 py-5 hover:bg-gray-50 lg:basis-[248px] xl:px-8 w-[248px]" href="stats">
-                                    <!-- TEXT -->
-                                    <h2 class="font-inter mb-1 mt-5 text-lg font-medium text-[#160042]">Stat</h2>
-                                </a>
-
-                            </div>
-                        </div>
                     </div>
                     <a href="#" class="font-inter rounded-lg lg:px-6 lg:py-4 lg:hover:bg-gray-50 lg:hover:text-gray-800">Livewire</a>
                 </div>

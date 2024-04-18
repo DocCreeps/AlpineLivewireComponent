@@ -1,5 +1,6 @@
 @extends('layouts.lBase')
 @section('content')
+
     <div class="m-12 ">
         <div x-data="init()" x-init="init">
             <dl class="grid grid-cols-1 gap-4 md:grid-cols-4">
